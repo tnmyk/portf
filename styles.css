@@ -68,30 +68,28 @@ footer {
 }
 #info {
   position: relative;
-  top: 25%;
+  top: 38%;
   left: 100%;
   height: 60%;
+  
   /* background-color:white ; */
 }
 
-#half{
-    display: flex;
-}
 
 #backtotop{
-    /* background-color:black ; */
-    width:200%;
-    
+    margin-top: 3rem;
     border-top-style: solid;
     border-top-color: rgb(63, 63, 63);
     border-top-width: 0.05rem;
-    position: relative;
-    top:10%;
-
+    
     text-align: center;
+    background-color: #121316;
+    display: block;
+    margin-top: 0%;
+    padding-bottom: 1.5%;
+    transition:linear 0.6s;
 }
 
-#backbox{
-    position: relative;
-    top: 20%;
+#backtotop:hover{
+    background-color: rgb(90, 70, 70);
 }
