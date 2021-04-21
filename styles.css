@@ -1,0 +1,97 @@
+html {
+  /* margin: 0; */
+  /* padding:0 ; */
+  scroll-behavior: smooth;
+}
+
+body {
+  height: auto;
+  min-height: 1500px;
+  background-image: url(./media/backgif.gif);
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#main {
+  height: auto;
+  min-height: 1500px;
+  background: #17181c;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+
+  color: white;
+}
+#header {
+  margin: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 0.9rem;
+}
+#contact{
+    font-size: 0.8rem;
+    float:right;
+}
+.line {
+  margin-top: 2rem;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(173, 173, 173);
+}
+
+footer {
+  margin-top: 1rem;
+  background-color: #17181c;
+  display: flex;
+}
+
+.fhalf {
+  width: 40%;
+}
+
+#fgifs {
+  border-right-style: solid;
+  border-right-color: rgb(63, 63, 63);
+  border-right-width: 0.05rem;
+}
+
+#fgif {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#info {
+  position: relative;
+  top: 25%;
+  left: 100%;
+  height: 60%;
+  /* background-color:white ; */
+}
+
+#half{
+    display: flex;
+}
+
+#backtotop{
+    /* background-color:black ; */
+    width:200%;
+    
+    border-top-style: solid;
+    border-top-color: rgb(63, 63, 63);
+    border-top-width: 0.05rem;
+    position: relative;
+    top:10%;
+
+    text-align: center;
+}
+
+#backbox{
+    position: relative;
+    top: 20%;
+}
