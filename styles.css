@@ -139,12 +139,16 @@ footer {
 }
 
 #test{
-  background-color: #121316;
+  /* background-color: #121316; */
+  background-color: whitesmoke;
+  /* background-color: beige; */
+  color: #121316;
+
   height:101%;
   min-height: 100%;
   float: left;
   
-  width:1.8rem;
+  width:1.5rem;
   writing-mode: vertical-lr;
   font-size: 130%;
   text-transform: uppercase;
@@ -160,7 +164,7 @@ footer {
 ::-webkit-scrollbar-thumb {
   background: rgba(136, 136, 136, 0.774);
   
-  border-radius: 100px;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
