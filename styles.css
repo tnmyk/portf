@@ -147,8 +147,8 @@ footer {
   height:101%;
   min-height: 100%;
   float: left;
-  
-  width:1.5rem;
+  margin-left: 2.5%;
+  width:1.9rem;
   writing-mode: vertical-lr;
   font-size: 130%;
   text-transform: uppercase;
@@ -156,15 +156,17 @@ footer {
 
 
 ::-webkit-scrollbar {
-  width: 11px;
+  width: 9px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(24, 24, 24, 0.815);
+   /* background: rgba(24, 24, 24, 0.815); */
+    background: rgba(24, 24, 24, 0.918);  
 }
 ::-webkit-scrollbar-thumb {
   background: rgba(136, 136, 136, 0.774);
   
   border-radius: 5px;
+
 }
 
 ::-webkit-scrollbar-thumb:hover {
