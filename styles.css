@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
   /* margin: 0; */
   /* padding:0 ; */
   scroll-behavior: smooth;
@@ -7,7 +8,6 @@ html,body {
 }
 
 body {
-  
   height: 100vh;
   min-height: 1500px;
   background-image: url(./media/backgif.gif);
@@ -24,7 +24,9 @@ body {
   background: #17181c;
   margin-top: 1rem;
   padding-top: 1rem;
-  padding-bottom:0 ;
+  padding-bottom: 0;
+
+  position: relative;
 }
 
 a {
@@ -38,18 +40,16 @@ a {
   margin-right: 10%;
   font-size: 1rem;
 }
-#contact{
-    font-size: 0.85rem;
-    float:right;
-    
+#contact {
+  font-size: 0.85rem;
+  float: right;
 }
-#contact a{
+#contact a {
   text-decoration: underline transparent;
-  
 }
-#contact a:hover{
+#contact a:hover {
   text-decoration-color: white;
-  transition:ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
 .line {
   margin-top: 2rem;
@@ -62,7 +62,6 @@ footer {
   margin-top: 1rem;
   background-color: #17181c;
   display: flex;
-  
 }
 
 .fhalf {
@@ -83,92 +82,100 @@ footer {
   margin-right: auto;
   justify-content: center;
   align-items: center;
-  
 }
-#half{
+#half {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 #info {
   display: flex;
   height: 100%;
   width: max-content;
-  font-size:100%;
+  font-size: 100%;
   margin-top: 15%;
   position: relative;
   /* background-color:white ; */
 }
 
+#backtotop {
+  text-transform: uppercase;
+  border-top-style: solid;
+  border-top-color: rgb(63, 63, 63);
+  border-top-width: 0.05rem;
 
-#backtotop{
-    text-transform: uppercase;
-    border-top-style: solid;
-    border-top-color: rgb(63, 63, 63);
-    border-top-width: 0.05rem;
-    
-    text-align: center;
-    background-color: #121316;
-    display: block;
-    margin-top: 0;
-    
-    margin-bottom: 0.1rem;
-    transition:linear 0.11s;
-    
-    
+  text-align: center;
+  background-color: #121316;
+  display: block;
+  margin-top: 0;
+
+  margin-bottom: 0.1rem;
+  transition: linear 0.11s;
 }
 
-#backtotop:hover{
-    background-color: rgb(0, 0, 0);
+#backtotop:hover {
+  background-color: rgb(0, 0, 0);
 }
 
 /* introduction */
 
-#intro{
+#intro {
   background-color: black;
   height: 100px;
   width: 80%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   writing-mode: vertical-lr;
 }
 
-#test{
-  /* background-color: #121316; */
+#test {
   background-color: whitesmoke;
-  /* background-color: beige; */
   color: #121316;
-
-  height:101%;
+  height: 100%;
   min-height: 100%;
   float: left;
-  margin-left: 2.5%;
-  width:1.9rem;
+  margin-left: 2%;
+  width: 2%;
+  min-width: 23px;
   writing-mode: vertical-lr;
-  font-size: 130%;
+  font-size: large;
   text-transform: uppercase;
+  left: 1%;
+  position: absolute;
+  bottom: 0;
 }
 
+#test2 {
+  position: absolute;
+  bottom: 1%;
+  left: 0;
+  background-color: whitesmoke;
+  color: #121316;
+  
+  width: 100%;
+  min-height: 20px;
+  height: 23px;
+  font-size: large;
+  text-transform: uppercase;
+}
 
 ::-webkit-scrollbar {
   width: 9px;
 }
 ::-webkit-scrollbar-track {
-   /* background: rgba(24, 24, 24, 0.815); */
-    background: rgba(24, 24, 24, 0.918);  
+  /* background: rgba(24, 24, 24, 0.815); */
+  background: rgb(24, 24, 24);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(136, 136, 136, 0.774);
-  
-  border-radius: 5px;
+  background: rgb(136, 136, 136);
 
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(39, 39, 39, 0.753);
+  background: rgb(97, 97, 97);
 }
