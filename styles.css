@@ -5,6 +5,7 @@ body {
   scroll-behavior: smooth;
   user-select: none;
   height: 100%;
+  font-size: 100%;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   background-size: cover;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
+  
 }
 
 #main {
@@ -25,8 +27,9 @@ body {
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 0;
-
+  width:100%;
   position: relative;
+  
 }
 
 a {
@@ -122,14 +125,16 @@ footer {
 /* introduction */
 
 #intro {
-  background-color: black;
-  height: 100px;
-  width: 80%;
+  /* background-color: black; */
+  height: auto;
+  width: 75%;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 15%;
+  /* transform: translateX(-50%); */
   font-family: "Poppins", sans-serif;
-  writing-mode: vertical-lr;
+  /* writing-mode: vertical-lr; */
+  margin-top: 5%;
+  /* background-color: black; */
 }
 
 #test {
