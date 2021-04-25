@@ -2,7 +2,7 @@ html,
 body {
   /* margin: 0; */
   /* padding:0 ; */
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
   user-select: none;
   height: 100%;
   font-size: 100%;
@@ -128,12 +128,10 @@ footer {
   /* background-color: black; */
   height: auto;
   width: 75%;
-  position: absolute;
-  left: 15%;
-  /* transform: translateX(-50%); */
+  /* position: absolute; */
+  margin-left: 15%;
   font-family: "Poppins", sans-serif;
-  /* writing-mode: vertical-lr; */
-  margin-top: 5%;
+  margin-top: 3.5%;
   /* background-color: black; */
 }
 
@@ -152,11 +150,13 @@ footer {
   left: 1%;
   position: absolute;
   bottom: 0;
+
+
 }
 
 #test2 {
   position: absolute;
-  bottom: 1%;
+  bottom: 2%;
   left: 0;
   background-color: whitesmoke;
   color: #121316;
@@ -183,4 +183,13 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(97, 97, 97);
+}
+
+
+.list{
+  display: flex;
+  align-items: center;
+}
+li{
+  padding: 0.7%;
 }
