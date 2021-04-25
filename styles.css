@@ -11,7 +11,7 @@ body {
 
 body {
   height: 100vh;
-  min-height: 1500px;
+  min-height: 2000px;
   background-image: url(./media/backgif.gif);
   background-repeat: repeat;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ body {
 
 #main {
   height: auto;
-  min-height: 1500px;
+  min-height: 2000px;
   background: #17181c;
   margin-top: 1rem;
   padding-top: 1rem;
@@ -200,4 +200,12 @@ li {
 .skill-div:hover h2 {
   transition: linear 0.2s;
   color: rgb(253, 81, 81);
+}
+.inbody {
+  
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-right: 10%;
+  
 }
