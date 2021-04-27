@@ -1,12 +1,10 @@
 html,
 body {
-  /* margin: 0; */
-  /* padding:0 ; */
   scroll-behavior: smooth;
   user-select: none;
   height: 100%;
-  font-size: 100%;
-  min-width: 820px;
+  /* font-size: 100%; */
+  min-width: 360px;
 }
 
 body {
@@ -33,7 +31,6 @@ body {
 
 a {
   text-decoration: none;
-
   color: white;
 }
 #header {
@@ -183,20 +180,20 @@ footer {
 }
 
 .list {
-  display: flex;
-  align-items: center;
 }
 li {
-  padding: 0.7%;
+  padding-bottom: 3%;
 }
-.skill-div{
-   transition: ease-out 0.2s;
+.skill-div {
+  transition: ease-out 0.2s;
+  border-right: 1px dashed white;
 }
 .skill-div:hover {
   background-color: rgb(20, 20, 20);
   transition: linear 0.2;
   transform: scale(1.04);
   box-shadow: 0px 0px 5px 5px rgba(250, 250, 250, 0.527);
+  border-right: 0px;
 }
 
 .skill-div:hover h2 {
@@ -204,50 +201,85 @@ li {
   color: rgb(253, 81, 81);
 }
 .inbody {
-  
   width: 80%;
   margin-left: 10%;
   margin-top: 3%;
   margin-right: 10%;
-   
+  /* background-color: #21ebff; */
 }
 
-.card{
+.card {
   display: flex;
-  height:7rem;
+  height: 7rem;
   border: 1px solid white;
   border-radius: 1.5rem;
   margin-bottom: 1.5%;
-  cursor:pointer;
+  cursor: pointer;
   overflow: hidden;
   transition: ease-out 0.2s;
 }
-.card:hover{
+.card:hover {
   transform: scale(1.04);
   box-shadow: 0 0 2px 2px rgba(250, 250, 250, 0.527);
+  /* transform: rotate3d(); */
 }
-.card-img{
-  
-  width: 14%;
+.card-img {
+  width: 11%;
   margin-left: 0;
   border-right: 1px solid white;
-  
 }
 
-.card-text{
+.card-text {
   margin-left: 2%;
   margin-top: 0%;
   width: 100%;
 }
-.card-text h3{
-  margin-bottom: 1%;   
+.card-text h3 {
+  margin-bottom: 1%;
 }
-.card-text p{
+.card-text p {
   margin-top: 0;
   font-size: 85%;
+  margin-right: 4%;
 }
 
-.card-link{
+.card-link {
   text-decoration: underline;
   color: crimson;
+}
+
+#seemore {
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.363);
+  text-align: center;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  overflow: hidden;
+  transition:  0.5s;
+text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 100%;
+  box-shadow: 0px 0px 3px 2px #21ecff1f;
+  margin-top: 1%;
+} 
+
+#seemore:hover {
+   transform: scale(1.04);
+  color: #21ebff;
+  box-shadow: 0px 0px 3px 2px #21ebff;
+  
+}
+
+#seemore:hover img{
+  -webkit-mask-image: linear-gradient(blue 0%,transparent 100%);
+  mask-image: linear-gradient(blue 0%,transparent 50% );
+}
+
+
+
+
+.list img {
+  vertical-align: middle;
+  width: 35px;
+  
 }

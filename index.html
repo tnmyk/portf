@@ -83,13 +83,13 @@
           <li>Native Android Development</li>
         </ul>
         
-      <div class="inbody" style="height: 45vh;
-  display: flex;border: 1px dashed white;">
+      <div class="inbody" style="min-height: 45vh;
+  display: flex;border: 1px dashed white; border-right: 0;">
         
-        <div style="width:50% ;border-right: 1px dashed white; word-wrap: break-word;" class="skill-div">
+        <div style="width:50% ; word-wrap: break-word;" class="skill-div">
         <h2 style="text-align: center;">Languages</h2>
-        <ul style="font-size: 130%; word-break: break-all;">
-          <li ><span class="list">HTML &nbsp;<img src="../media/html5.svg" alt="" width="5%">,&nbsp; CSS <img src="../media/css3.svg" alt="" width="8.7%"> , &nbsp; Javascript &nbsp; <img src="../media/logo-javascript.svg" alt="" width="6%"></span></li>
+        <ul style="font-size: 130%;">
+          <li ><span class="list">HTML &nbsp; <img src="../media/html5.svg" alt=""/>,  &nbsp; CSS <img src="../media/css3.svg" alt="" /> , &nbsp; Javascript &nbsp; <img src="../media/logo-javascript.svg" alt=""/> </span></li>
 
           <li ><span class="list">
             C++ &nbsp; <img src="../media/c.svg" alt="" width="5%">
@@ -117,8 +117,9 @@
       
       <div class="inbody" id="projects" style="margin-top: 3%; padding-top: 0.01%;">
         <h1>Projects:</h1>
+        
         <div onclick="location.href='#';" class="card">
-          <span class="card-img" style="background-color: darkblue;">
+          <span class="card-img" style="background-color: #00916E;">
             
           </span>
           <span class="card-text">
@@ -130,7 +131,7 @@
         </div>
 
         <div onclick="location.href='#';" class="card">
-          <span class="card-img" style="background-color: orange;">
+          <span class="card-img" style="background-color:#feefe5 ;">
             
           </span>
           <span class="card-text">
@@ -138,20 +139,29 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error laborum alias similique, vitae nesciunt esse earum mollitia dignissimos quam a repellat amet soluta libero distinctio sunt, et saepe aspernatur nulla! Eos, ratione animi. <a href="#" class="card-link">See more</a> </p>
           </span>
         </div>
-          <div onclick="location.href='#';" class="card">
-          <span class="card-img" style="background-color:violet;">
+          <div onclick="location.href='#';" class="card" style="-webkit-mask-image: linear-gradient(black 0%,transparent 100%);
+  mask-image: linear-gradient(black 0%,transparent 50% );
+  border-bottom: 0;margin-bottom: 0%; height: 4.3rem; border-bottom: 0; border-bottom-left-radius: 0;border-bottom-right-radius: 0;">
+          <span class="card-img" style="background-color:#ffcf00;">
             
           </span>
-          <span class="card-text">
+          <span class="card-text" >
             <h3>Xyz Project</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error laborum alias similique, vitae nesciunt esse earum mollitia dignissimos quam a repellat amet soluta libero distinctio sunt, et saepe aspernatur nulla! Eos, ratione animi. <a href="#" class="card-link">See more</a> </p>
           </span>
+          
         </div>
-
-        <div class="card" onclick="location.href='work.html';" style="height: 4rem; background-color: rgba(0, 0, 0, 0.363); border-radius: 5px;">
-          <h3 style="margin:1.25rem auto;">See more <img src="../media/backtotopimg.png" alt=""  width="12.5px" style="transform: rotate(90deg);margin-left: 1px;"> </h3>
+        
+        <div onclick="location.href='work.html';" id="seemore">
+          <h3 style="margin:0.75rem auto;" >See more <img src="../media/backtotopimg.png" alt=""  width="12.5px" style="transform: rotate(90deg);margin-left: 1px;"> 
+          
+          </h3>
         </div>
+        
+       
+        
       </div>
+      
       <div id="test2">
     <marquee
       behavior="scroll"
